@@ -25,7 +25,7 @@ p {
 
 table,
 td {
-  border: 2px solid #333;
+  border: 2px solid #3a3845;
 }
 
 .recapSize {
@@ -51,13 +51,23 @@ td {
   width: 50%;
 }
 
-.bottomText {
+.upText {
   position: relative;
   text-align: center;
   /* top: 0px; */
+  border-width: 3px;
+  border-color: #3a3845;
+  border-style: solid;
+  /* border-right-width: 2em; */
+  /* border-left-width: 2em; */
+  width: 71%;
+  /* border-radius: 50px; */
 }
 
-h1 {
+h2 {
   position: relative;
-  left: 165px;
+  left: 170px;
+  padding: 20px 20px;
+  background-color: #3a3845;
+  color: #fdf6ec;
 }
